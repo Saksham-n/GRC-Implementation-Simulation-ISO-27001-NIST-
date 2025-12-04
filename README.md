@@ -102,7 +102,7 @@ This portfolio demonstrates practical skills in:
 
 ---
 
-# 📄 Author  
+#  Author  
 **Saksham Neema**  
 GRC | InfoSec | Security Automation  
 Email: neema.saksham1@gmail.com
