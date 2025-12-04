@@ -1,0 +1,6 @@
+Asset_ID,Asset_Name,Threat_Description,Vulnerability,Likelihood(1-5),Impact(1-5),Risk_Score,Risk_Level,ISO_27001_Control,Mitigation_Plan
+AST-001,Customer_Database_Prod,Ransomware attack encrypting data,Missing automated offsite backups,4,5,20,CRITICAL,A.12.3 (Backup),Implement daily immutable backups to S3 Glacier with MFA delete.
+AST-002,Payment_Gateway_API,Data interception during transmission,Use of deprecated TLS 1.0 protocol,3,5,15,HIGH,A.10.1 (Cryptography),Upgrade web server config to enforce TLS 1.2 or 1.3 only.
+AST-003,Employee_Laptops_Fleet,Theft or Loss of device,Hard drives not encrypted (BitLocker disabled),3,4,12,MEDIUM,A.8.1 (Assets),Enforce BitLocker encryption via Active Directory Group Policy.
+AST-004,Third_Party_Chatbot,Supply Chain Data Breach,Vendor lacks SOC2/ISO certification,4,3,12,MEDIUM,A.15.1 (Supplier Relations),Send Vendor Due Diligence Questionnaire (SIG) and review security clauses.
+AST-005,Internal_Admin_Portal,Unauthorized Access,Missing Multi-Factor Authentication (MFA),5,5,25,CRITICAL,A.9.4 (Access Control),Mandate MFA (TOTP) for all admin accounts immediately.

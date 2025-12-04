@@ -1,0 +1,20 @@
+# Data Classification & Handling Standard
+**Document ID:** ISMS-STD-08
+**Alignment:** ISO/IEC 27001:2013 (Annex A.8.2)
+
+## 1. Overview
+This standard defines the categorization of data assets to ensure appropriate protection levels are applied based on sensitivity and criticality.
+
+## 2. Classification Levels
+
+| Level | Classification | Definition | Examples | Handling Requirements |
+| :--- | :--- | :--- | :--- | :--- |
+| **L1** | **Public** | Information intended for public release. | Marketing brochures, Website landing pages. | No encryption required. |
+| **L2** | **Internal** | Information for internal business operations only. | Employee directories, Internal wikis, Slack logs. | Access Control (SSO). |
+| **L3** | **Confidential** | Sensitive business data that could cause financial/reputational harm if leaked. | Source Code, Roadmap, Vendor Contracts. | Encrypted at Rest (AES-256), NDA required. |
+| **L4** | **Restricted** | Highly sensitive data including PII and Payment info. | User Passwords, Credit Card Tokens, Medical Records. | **Strict Encryption**, MFA access only, Data Masking. |
+
+## 3. Labeling & Handling
+* All documents containing **L3** or **L4** data must be watermarked "CONFIDENTIAL".
+* **L4** data must never be stored on unencrypted removable media (USB drives).
+* **L4** data must be anonymized or masked before use in Non-Production (Test/Dev) environments.

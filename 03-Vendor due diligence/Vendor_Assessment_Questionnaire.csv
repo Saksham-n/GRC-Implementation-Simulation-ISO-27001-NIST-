@@ -1,0 +1,8 @@
+Question_ID,Domain,Question,Desired_Answer,Risk_Flag,Mitigation_Required,
+VDD-01,Compliance,Do you hold a valid ISO 27001 or SOC 2 Type II certification?,Yes,HIGH,Vendor must agree to independent audit rights.,
+VDD-02,Data_Security,Is all customer data encrypted at rest (AES-256) and in transit (TLS 1.2+)?,Yes,CRITICAL,Vendor rejected until encryption implemented.,
+VDD-03,Access_Control,Do you enforce Multi-Factor Authentication (MFA) for all administrative access?,Yes,HIGH,Implement MFA within 30 days of contract.,
+VDD-04,Privacy,Is customer data stored exclusively within India (Data Residency)?,Yes,MEDIUM,Sign Cross-Border Data Transfer Agreement.,
+VDD-05,Incident_Response,Do you agree to notify us of a confirmed data breach within 24 hours?,Yes,CRITICAL,Clause added to Master Services Agreement (MSA).,
+VDD-06,Vulnerability_Mgmt,Do you perform annual Third-Party Penetration Testing?,Yes,MEDIUM,Share executive summary of last pen-test.,
+VDD-07,Resiliency,Do you have a tested Disaster Recovery (DR) plan with RTO < 4 hours?,Yes,LOW,Review DR test results.,
