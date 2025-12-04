@@ -4,7 +4,7 @@
 This project simulates a full-cycle **Governance, Risk, and Compliance (GRC)** implementation for a technology-driven enterprise. It demonstrates the practical application of industry frameworks (**ISO 27001**, **NIST CSF**, **DPDP Act**) to identify risks, govern security policies, and manage third-party vendors.
 
 > **Technical Integration:** This GRC framework is designed to work alongside my **Automated Compliance Auditor**.
-> 🔗 **[View the Java Automation Tool Repository Here]((https://github.com/Saksham-n/Security-Configuration-Compliance-Auditor-Java-))**
+>  **(https://github.com/Saksham-n/Security-Configuration-Compliance-Auditor-Java-)
 
 ---
 
