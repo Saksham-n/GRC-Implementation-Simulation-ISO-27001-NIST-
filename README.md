@@ -14,12 +14,12 @@ This repository demonstrates core GRC capabilities expected from a **GRC / Infos
 
 # 📁 Repository Structure
 
-GRC-Portfolio-Saksham/
-│
-├── ISMS-Policies/ → ISO 27001 A.5, A.8, A.9 controls
-├── Risk-Register/ → ISO 27001 risk scoring + matrix
-├── Vendor-Due-Diligence/ → TPRM assessment + questionnaire
-└── Data-Privacy/ → GDPR/DPDP notice + retention policy
+GRC-Portfolio-Saksham/              //
+│                                  //
+├── ISMS-Policies/ → ISO 27001 A.5, A.8, A.9 controls  //
+├── Risk-Register/ → ISO 27001 risk scoring + matrix    //
+├── Vendor-Due-Diligence/ → TPRM assessment + questionnaire    //
+└── Data-Privacy/ → GDPR/DPDP notice + retention policy  //
 
 
 ---
