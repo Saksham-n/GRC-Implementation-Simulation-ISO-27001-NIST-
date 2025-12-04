@@ -1,4 +1,4 @@
-# Enterprise GRC Implementation Simulation 🛡️
+# Enterprise GRC Implementation Simulation 
 
 ##  Overview
 This project simulates a full-cycle **Governance, Risk, and Compliance (GRC)** implementation for a technology-driven enterprise. It demonstrates the practical application of industry frameworks (**ISO 27001**, **NIST CSF**, **DPDP Act**) to identify risks, govern security policies, and manage third-party vendors.
