@@ -1,108 +1,32 @@
-GRC-Implementation-Simulation-ISO-27001-NIST
+# Enterprise GRC Implementation Simulation 
 
-#  GRC Portfolio – Saksham Neema  
-A complete Governance, Risk & Compliance (GRC) documentation portfolio aligned with **ISO 27001**, **NIST CSF**, **GDPR**, and **India’s DPDP Act**.
+## Overview
+This project simulates a full-cycle **Governance, Risk, and Compliance (GRC)** implementation for a technology-driven enterprise. It demonstrates the practical application of industry frameworks (**ISO 27001**, **NIST CSF**, **DPDP Act**) to identify risks, govern security policies, and manage third-party vendors.
 
-This repository demonstrates core GRC capabilities expected from a **GRC / Infosec Intern**, including:
+##  Project Artifacts
 
-- ✔ Security Governance (Policies)  
-- ✔ Risk Assessment & Risk Register  
-- ✔ Third-Party Risk Management (Vendor Due Diligence)  
-- ✔ Data Privacy Compliance (GDPR + DPDP)  
+### 1. Risk Register (`Risk_Register.csv`)
+A dynamic risk assessment engine based on the standard risk formula:
+$$Risk = Likelihood \times Impact$$
 
----
+* **Methodology:** 5x5 Risk Matrix.
+* **Key Feature:** Each identified risk is mapped directly to an **ISO 27001 Annex A Control** (e.g., *A.12.3 Backup*).
+* **Scenarios Covered:** Ransomware, Cloud Misconfiguration (AWS), Supply Chain attacks, and TLS Protocol vulnerabilities.
 
-#  Repository Structure
+### 2. Vendor Due Diligence
+A simulated Third-Party Risk Management (TPRM) workflow to evaluate vendor security posture before onboarding.
+* **Focus:** Assesses compliance with **SOC 2** and **ISO 27001**.
+* **Critical Checks:** Encryption standards (AES-256), Data Residency (India/DPDP), and Breach Notification SLAs.
 
-GRC-Portfolio-Saksham/
+### 3. ISMS Policy Architecture
+Drafted governance policies aligned with **ISO 27001** standards:
+* **Access Control:** Enforcing *Least Privilege* and *Role-Based Access Control (RBAC)*.
+* **Data Privacy:** Compliance with the **Digital Personal Data Protection (DPDP) Act 2023**, focusing on *Consent* and *Purpose Limitation*.
 
-├── ISMS-Policies/ → ISO 27001 A.5, A.8, A.9 controls  
-├── Risk-Register/ → ISO 27001 risk scoring + matrix    
-├── Vendor-Due-Diligence/ → TPRM assessment + questionnaire    
-└── Data-Privacy/ → GDPR/DPDP notice + retention policy  
-
-
----
-
-#  ISMS Policies  
-Location: `/ISMS-Policies/`
-
-Includes three ISO 27001–aligned policies:
-
-1. **Information Security Policy**  
-2. **Access Control Policy**  
-3. **Data Classification Policy**
-
-Mapped to ISO Annex A Controls:
-- A.5 – Information Security Policies  
-- A.8 – Asset Management  
-- A.9 – Access Control  
+##  Frameworks Applied
+* **NIST Cybersecurity Framework (CSF):** Mapped risks to Identify, Protect, and Recover functions.
+* **ISO/IEC 27001:2013:** Used for control mapping and ISMS structure.
+* **Shared Responsibility Model:** Applied to Cloud/AWS risk scenarios.
 
 ---
-
-#  ISO 27001 Risk Register  
-Location: `/Risk-Register/`
-
-Includes:
-- 10 high-impact risks  
-- Likelihood/Impact scoring  
-- Risk matrix  
-- Annex A mitigation mapping  
-
-Example risks:
-- Cloud misconfiguration  
-- Weak access control  
-- Missing logs/SIEM  
-- Encryption failures  
-- Vendor security gaps  
-
----
-
-#  Vendor Due Diligence (TPRM)  
-Location: `/Vendor-Due-Diligence/`
-
-Includes:
-- 25-question vendor questionnaire  
-- Evaluation template  
-- Risk scoring  
-- Supplier security mapping  
-
-Aligned controls:
-- ISO 27001: A.15 – Supplier Relationships  
-- NIST CSF: Identify → Protect  
-
----
-
-#  Data Privacy Compliance (GDPR + DPDP Act)  
-Location: `/Data-Privacy/`
-
-Includes:
-- Privacy Notice  
-- Data Retention Policy  
-- Lawful basis mapping  
-- Rights of data principals  
-
-Covers:
-- GDPR Principles  
-- DPDP Obligations  
-- Purpose limitation  
-- Minimization  
-
----
-
-#  Why This Matters  
-This portfolio demonstrates practical skills in:
-
-- Risk assessment  
-- Governance & compliance  
-- Supplier security  
-- Policy writing  
-- Data privacy alignment  
-
-
----
-
-#  Author  
-**Saksham Neema**  
-GRC | InfoSec | Security Automation  
-Email: neema.saksham1@gmail.com
+*This simulation was built to demonstrate readiness for the Infosec - GRC Engineer role.*
