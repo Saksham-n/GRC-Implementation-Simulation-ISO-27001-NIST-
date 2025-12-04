@@ -1,6 +1,6 @@
 GRC-Implementation-Simulation-ISO-27001-NIST
 
-# 🛡 GRC Portfolio – Saksham Neema  
+#  GRC Portfolio – Saksham Neema  
 A complete Governance, Risk & Compliance (GRC) documentation portfolio aligned with **ISO 27001**, **NIST CSF**, **GDPR**, and **India’s DPDP Act**.
 
 This repository demonstrates core GRC capabilities expected from a **GRC / Infosec Intern**, including:
@@ -12,7 +12,7 @@ This repository demonstrates core GRC capabilities expected from a **GRC / Infos
 
 ---
 
-# 📁 Repository Structure
+#  Repository Structure
 
 GRC-Portfolio-Saksham/
 
@@ -24,7 +24,7 @@ GRC-Portfolio-Saksham/
 
 ---
 
-# 📘 ISMS Policies  
+#  ISMS Policies  
 Location: `/ISMS-Policies/`
 
 Includes three ISO 27001–aligned policies:
@@ -40,7 +40,7 @@ Mapped to ISO Annex A Controls:
 
 ---
 
-# 🧮 ISO 27001 Risk Register  
+#  ISO 27001 Risk Register  
 Location: `/Risk-Register/`
 
 Includes:
@@ -58,7 +58,7 @@ Example risks:
 
 ---
 
-# 🤝 Vendor Due Diligence (TPRM)  
+#  Vendor Due Diligence (TPRM)  
 Location: `/Vendor-Due-Diligence/`
 
 Includes:
@@ -73,7 +73,7 @@ Aligned controls:
 
 ---
 
-# 🔐 Data Privacy Compliance (GDPR + DPDP Act)  
+#  Data Privacy Compliance (GDPR + DPDP Act)  
 Location: `/Data-Privacy/`
 
 Includes:
@@ -90,7 +90,7 @@ Covers:
 
 ---
 
-# ⭐ Why This Matters  
+#  Why This Matters  
 This portfolio demonstrates practical skills in:
 
 - Risk assessment  
